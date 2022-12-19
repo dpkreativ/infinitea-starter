@@ -20,7 +20,7 @@ export default function Card({
       </div>
       <div className="rounded-b-xl p-4">
         <a href={creditUrl}>
-          Image by:<span> {shotBy}</span>
+          Credit:<span> {shotBy}</span>
         </a>
       </div>
     </div>

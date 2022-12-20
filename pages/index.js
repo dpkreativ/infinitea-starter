@@ -1,8 +1,25 @@
 import Head from 'next/head';
+import { useState } from 'react';
 import HomeLayout from '../components/layouts/HomeLayout';
 import Card from '../components/ui/Card';
 
 export default function Home() {
+  // ------- States -------
+  const [images, setImages] = useState([]);
+  const [page, setPage] = useState(1);
+
+  // ------- Functions -------
+  /**
+   * Fetch images from the Unsplash API and append the results to your `images` array
+   */
+  const fetchImages = async () => {};
+
+  /**
+   * useEffect to trigger the `fetchImages` function whenever `page` updates
+   */
+  // useEffect here
+
+  // Render
   return (
     <>
       <Head>

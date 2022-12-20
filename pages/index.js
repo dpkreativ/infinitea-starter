@@ -3,6 +3,8 @@ import { useState } from 'react';
 import HomeLayout from '../components/layouts/HomeLayout';
 import Card from '../components/ui/Card';
 
+const BASE_URL = `https://api.unsplash.com/search/photos/`;
+
 export default function Home() {
   // ------- States -------
   const [images, setImages] = useState([]);
@@ -19,7 +21,7 @@ export default function Home() {
    */
   // useEffect here
 
-  // Render
+  // ------- Render --------
   return (
     <>
       <Head>
